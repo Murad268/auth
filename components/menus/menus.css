@@ -1,0 +1,216 @@
+.header {
+   height: 100vh;
+   width: 100%;
+   background: url('../../assets/images/pexels-ivan-samkov-5676741.jpg') center center/cover no-repeat
+}
+.nav__logo {
+   width: 250px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+}
+.nav__wrapper {
+   display: grid;
+   grid-template-columns: 1fr 3fr  1fr;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-top: 18px;
+}
+.nav__list {
+   width: max-content;
+   padding-top: 20px;
+}
+.nav__list ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 533px;
+}
+.nav__list ul li select{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   appearance: none;
+   background: inherit;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.nav__list ul li select option {
+   font-size: 20px;
+   color: black;
+   font-weight: 700;
+}
+.nav__list ul li a {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.nav__cabinet a{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.header__body {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   color: #FFFFFF;
+   width: 70%;
+   margin-top: 40px;
+   background-color:rgba(0, 0, 0, 0.5);
+   padding: 20px;
+}
+.header__body h1{
+   font-size: 64px;
+   line-height: 100px;
+}
+.header__body h2{
+   font-size: 44px;
+   line-height: 30px;
+}
+.header__body h3{
+   font-size: 24px;
+   line-height: 50px;
+}
+
+.header__body h4{
+   font-size: 30px;
+   font-weight: 900;
+   line-height: 40px;
+}
+.header__body__desc {
+   font-size: 30px;
+   margin-top: 30px;
+}
+.header__body a {
+   margin-top: 20px;
+}
+
+.allCourses nav {
+   padding-bottom: 10px;
+   padding-right: 20px;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.allCourses .nav__cabinet {
+   width: 230px;
+}
+.allCourses .nav .nav__list a {
+   font-family: roboto;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #5624d0;
+   background-color: transparent;
+   min-width: auto;
+}
+.allCourses .nav .nav__list select  {
+   font-family: roboto;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #5624d0;
+   background-color: transparent;
+   min-width: auto;
+}
+.allCourses__filter li {
+   cursor: pointer;
+   line-height: 25px;
+}
+.courses__wrapper {
+   padding: 30px 0;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+}
+
+
+
+.allCourses__filter__main, .allCourses__filter__level, .allCourses__filter__kind, .allCourses__filter__lang {
+   margin-top: 40px;
+   font-family: roboto;
+   font-size: 20px;
+}
+.allCourses__title {
+   font-size: 30px;
+   font-weight: 900;
+   margin: 15px 0;
+}
+.allCourses__filter__kind, .allCourses__filter__level, .allCourses__filter__lang{
+   display: none;
+}
+
+.allCourses__result {
+   padding: 30px 0;
+}
+.allCourses__result__course {
+   display: flex;
+   margin-top: 20px;
+}
+.allCourses__result__course__bg {
+   width: 350px;
+   height: 200px;
+   margin-right: 20px;
+   object-fit: cover;
+}
+
+.allCourses__result__course__tittle {
+   font-size: 30px;
+   font-weight: 900;
+}
+.allCourses__result__course__desc {
+   font-size: 25px;
+   font-weight: 400;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.allCourses__result__course__teacher {
+   font-size: 18px;
+   font-weight: 700;
+}
+.allCourses__result__course__teacher a {
+   font-size: 25px;
+   font-weight: 500;
+   text-decoration: none;
+   color: black;
+}
+.allCourses__result__course .btn {
+   padding: 5px;
+   margin-top: 10px;
+}
+.allCourses__result__course .btn a {
+   font-size: 25px;
+   font-weight: 700;
+   text-decoration: none;
+   color: black;
+   color: white;
+}
+
+.empty {
+   display: none;
+   font-size: 30px;
+   font-weight: 900;
+   font-family: rototo;
+   text-decoration: underline;
+   line-height: 50px;
+}

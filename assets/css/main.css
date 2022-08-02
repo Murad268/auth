@@ -1,0 +1,52 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   height: 100vh;
+   font-family: Montserrat, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+a {
+   color: #7c9ab7;
+   font-weight: bold;
+   text-decoration: none;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+}
+
+p {
+   margin: 10px 0; 
+}
+
+input {
+   margin: 10px 0;
+   padding: 10px;
+   border: unset;
+   border-bottom: 2px solid #e3e3e3;
+   outline: none;
+}
+
+button {
+   padding: 10px;
+   background: #e3e3e3;;
+   border: unset;
+   cursor: pointer;
+}
+
+.msg {
+   border: 2px solid #ffa908;
+   border-radius: 3px;
+   padding: 10px 0;
+   text-align: center;
+   font-weight: 900;
+}
+
+
+
