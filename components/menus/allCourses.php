@@ -17,6 +17,7 @@
    <title>Bütün kurslar</title>
 </head>
 <body>
+  ss
    <a class="to" href=""></a>
    <section class="allCourses">
    <a class="to" href=""></a>
@@ -74,15 +75,15 @@
             <div class="arabLang allCourses__filter__kind">
             <div class="allCourses__title">Kursun növü</div>
                <ul>
-                  <li>Arabian</li>      
+                  <li>Arabian</li>
                </ul>
             </div>
             <div class="microsoftLes allCourses__filter__kind">
             <div class="allCourses__title">Kursun növü</div>
                <ul>
-                  <li>Microsoft Word</li>    
-                  <li>Microsoft Excel</li>  
-                  <li>Microsoft PowerPoint</li>    
+                  <li>Microsoft Word</li>
+                  <li>Microsoft Excel</li>
+                  <li>Microsoft PowerPoint</li>
                </ul>
             </div>
             <div class="webDevLevel allCourses__filter__level">
@@ -133,7 +134,7 @@
                   <li class="enWeb">İngilis</li>
                </ul>
             </div>
-            
+
 
             <div class="englishCrLang allCourses__filter__lang">
             <div class="allCourses__title">Kursun dili</div>
