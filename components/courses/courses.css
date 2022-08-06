@@ -1,0 +1,182 @@
+*{
+   user-select: none;
+}
+
+
+.nav__logo {
+   width: 250px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+}
+.nav__wrapper {
+   display: grid;
+   grid-template-columns: 1fr 3fr  1fr;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-top: 18px;
+}
+.nav__list {
+   width: max-content;
+   padding-top: 20px;
+}
+.nav__list ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 533px;
+}
+.nav__list ul li select{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   appearance: none;
+   background: inherit;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.nav__list ul li select option {
+   font-size: 20px;
+   color: black;
+   font-weight: 700;
+}
+.nav__list ul li a {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.nav__cabinet a{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.frontendCourse nav {
+   padding-bottom: 10px;
+   padding-right: 20px;
+   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.frontendCourse .nav__cabinet {
+   width: 230px;
+}
+.frontendCourse .nav .nav__list a {
+   font-family: roboto;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #5624d0;
+   background-color: transparent;
+   min-width: auto;
+}
+.frontendCourse .nav .nav__list select  {
+   font-family: roboto;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #5624d0;
+   background-color: transparent;
+   min-width: auto;
+}
+.frontendCourse__wrapper {
+   padding-top: 50px;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+}
+.frontendCourse__link__tittle {
+   font-size: 30px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   font-weight: 900;
+   cursor: pointer;
+   font-size: roboto;
+   position: relative;
+}
+
+.frontendCourse__link {
+   font-size: 20px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   cursor: pointer;
+   font-size: roboto;
+}
+
+.frontendCourse__link__block {
+   height: max-content;
+}
+.frontendCourse__link__tittle::after {
+   content: "☝";
+   font-size: 25px;
+   font-weight: 200;
+   position: absolute;
+   top: 5px;
+   right: -20px;
+}
+.frontendCourse__link__tittle__active::after {
+   content: "☟";
+   font-size: 25px;
+   font-weight: 200;
+   position: absolute;
+   top: 5px;
+   right: -20px;
+}
+.frontendCourse__link__block__active {
+  display: none
+}
+
+.frontendCourse__link__explanation {
+   height: max-content;
+   width: 100%;
+   border: 1px solid black;
+   display: none;
+   padding: 15px;
+   font-size: 12px;
+}
+.frontendCourse__link__explanation__active {
+   display: block
+}
+.frontendCourse__link span {
+   margin-left: 20px;
+}
+
+.frontendCourse__player {
+   height: 100vh;
+   padding-top: 30px;
+}
+.player {
+   width: 600px;
+   height: 300px;
+   position: relative;
+}
+.player img {
+   width: 600px;
+   height: 400px;
+   overflow: fill;
+}
+.player iframe {
+   width: 568px;
+   height: 295px;
+   position: absolute;
+   top: 16px;
+   left: 18px;
+}

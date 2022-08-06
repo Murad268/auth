@@ -1,0 +1,17 @@
+﻿em - (emphasis) cümlə və ya söz üzərində emosional aksent bildirəndə istifadə olunur. Səhv bir sözü və ya fikri düzətmək üçün başqa bir fikir bildirəndə istifadə olunur. Sarkazmda istifadə olunur.Bədii işarə. Gözdən əlilliyi olan insanlar üçün nəzərdə tutulmuş elektron oxuma proqramları bu teqdə yazılmış mətnləri xüsusi intonasiya ilə oxuyacaqlar.
+i - italic - sadəcə yazının görünüşünü dəyişmək üçün. Kursiv yazı şəkli.
+strong - xüsusi vurğu və vaciblik. 
+b - yarı qalın yazmaq. Filmlərin, kitabların adlarını yazmaq üçün istifadə etmək olar.
+s - üzərindən xətt
+mark - arxa fonu markerləmək
+u - altdan xətt
+q - kiminsə sözünü sitat kimi gətirəndə
+cite - sitatın mənbəyi 
+abbr -  abreviaturalarıın mənalarını qeyd etmək üçün
+dfn - səhifədə ilk dəfə istifadə edilən termini yazarkən və onun mənasını izah edərkən 
+code - proqramlaşdırma dillərinin elementlərini qeyd etmək üçün
+small - mətnin həriflərinin ölçüsünü ümumi abzasın ölçüsündən bir vahid balaca edir
+sub - indeks qoymaq üçün
+sup-  surət qoymaq üçün
+time - zamanı göstərmək üçün
+

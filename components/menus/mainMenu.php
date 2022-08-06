@@ -33,7 +33,7 @@
                         <option value="">Kurslarımız</option>
                         <option value="./allCourses.php">Bütün Kurslarımız</option>
                         <option value="./webCourses.php">Web development</option>
-                        <option value="./EnglishCourses.php">İngilis dili</option>
+                        <option value="./engLishCourses.php">İngilis dili</option>
                         <option value="">Ərəb dili</option>
                         <option value="">Microsof Officce</option>
                      </select></li>

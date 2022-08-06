@@ -1,0 +1,41 @@
+﻿Preferences -> Color Scheme (reng sxemlerine baxmaq)
+
+View -> Side  Bar -> Show open files (istifade edilen fayllari ve qovluqlari gormek ucun olan sol panelin acilmasi)
+
+Tools -> Command Palette -> install package control (elaveleri yuklemek ucun lazim olan aletler panelinin yuklenmesi)
+
+
+
+Ctrl + Shift + P -> Package Controll: Install Package -> base 16 colors scehemes (menim qeyd etdiyim reng sxemlerinin yuklenmesi)
+
+Preferences -> Solors Scheme -> Ocean (yuklenilen reng sxemleri icerisindne "ocean" sxeminin secilmesi
+
+Preferences -> theme -> Adaptive.sublime-theme (sol ve ust panelinin temasini, yeni isiqli ve ya qaranliq olmasini teyin etmek)
+
+Preferences -> Settings (asagida yazilan parametrleri yazmaq ucun olan hisseni acmaq)
+
+
+
+"font_size": 10, //Şriftin ölçüsünü təyin edir
+"margin": 0,//Ətrafdan aralıqları aradan götürür
+"tab_size": 3, //Tabulyasiyanın ölçüsü
+"trim_trailling_white_space_on_save": false, //Proqramın özünəməxsus hərəkətini söndürür
+"remeber_open_files": true, //Açılmış faylları yadda saxlayır. Komp söndürülüb yandırıldıqdan sonra belə yadda qalırlar.
+
+
+
+preferences -> Font -> Reset (sriftin olcusunu evvelki veziyyete getirmek)
+
+AutoFileName - faylın yolunu daha sürətli yazmağa kömək edir.
+BracketHighliter - açılış və bağlayış elementlərini işıqlandırır
+Emmet - Sublimde kod yazılışını xeyli sürətləndirməyə kömək edir
+ColorHighliter - css faylında rəngləri göstərir
+
+
+
+
+
+
+ctrl + s - yadda saxlamaq
+ctrl + z - emri legv etmek
+ctrl + y -legv edilmis emri geri qaytarmaq

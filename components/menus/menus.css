@@ -156,16 +156,19 @@
    font-weight: 900;
    margin: 15px 0;
 }
-.allCourses__filter__kind, .allCourses__filter__level, .allCourses__filter__lang{
+.allCourses__filter__kind, .allCourses__filter__level{
    display: none;
 }
 
 .allCourses__result {
    padding: 30px 0;
 }
+.allCourses__result__course:first-child {
+   margin-top: 0;
+}
 .allCourses__result__course {
    display: flex;
-   margin-top: 20px;
+   margin-top: 80px;
 }
 .allCourses__result__course__bg {
    width: 350px;
@@ -207,10 +210,21 @@
 }
 
 .empty {
-   display: none;
    font-size: 30px;
    font-weight: 900;
    font-family: rototo;
    text-decoration: underline;
    line-height: 50px;
+}
+.finCourses {
+   margin-top: 40px;
+}
+
+label {
+   cursor: pointer;
+}
+.search input{
+   height: 30px;
+   outline: none;
+   margin-right: 10px;
 }

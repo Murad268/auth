@@ -1,0 +1,12 @@
+﻿ul - unordered (sayılmayan) list
+ol - ordered (sayılan) list
+yuxarıdakı hər bir teq içində li - list (siyahı) teqi ilə işlənirlər.
+Siyahıda nə qədər eləment olacaqsa o qədər də li teqi olacaq(bunu başa düşmək üçün videonu diqqətlə izləyin)
+li teqinin içində yenidən ol və ul teqləri istifadə etmək olar(bunu başa düşmək üçün videonu diqqətlə izləyin)
+br - yeni sətrə keçmək üçün
+p - paragraph - içində böyük həcmli mətn yazmaq üçün
+lorem - balıq teksti.
+pre - p ilə eynidi lakin p - nın içində yazının necə yazılmasından asılı olmayaraq o butun blokun eni boyu uzanacaq amma pre daxilində necə yazılıbsa elə də yazılacaq(bunu başa düşmək üçün videonu diqqətlə izləyin)
+hr - üfiqi xətt
+h1-h6 tittle(mətn və bölmə başlıqları) h1 ancaq bir dəfə işlədilir saytda
+1 - dən altıya kimi ölçü baxımından balacalaşırlar. Ən çox istifadə edilənləri h1, h2, h4 -dür.

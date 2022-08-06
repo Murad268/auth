@@ -152,7 +152,7 @@
          <div class="allCourses__result">
             <div style = "display:none" class="empty">Hazırda belə bir kursumuz mövcud deyil. Amma çox tezliklə əlavə ediləcəkdir</div>
             <div class="allCourses__result__wrapper">
-               <div data-name="frontendwebhtmlcsshtml5css3javascript" data-theme="web" data-kind="frontend" data-level= "noLevel" data-lang="azerbaijani" class="allCourses__result__course">
+               <div style="display:none" data-name="frontendwebhtmlcsshtml5css3javascript" data-theme="web" data-kind="frontend" data-level= "noLevel" data-lang="azerbaijani" class="allCourses__result__course">
                   <img src="../../assets/images/front.jfif" alt="" class="allCourses__result__course__bg">
                   <div class="allCourses__result__course__body">
                      <div class="allCourses__result__course__tittle">Frontend Development</div>
@@ -164,7 +164,7 @@
 
 
 
-               <div style="display:none" data-name="englishingilisingilisdili" data-theme="english" data-kind="britain" data-level= "a1" data-lang="azerbaijani"  class="allCourses__result__course">
+               <div data-name="englishingilisingilisdili" data-theme="english" data-kind="britain" data-level= "a1" data-lang="azerbaijani"  class="allCourses__result__course">
                   <img src="../../assets/images/a1.png" alt="" class="allCourses__result__course__bg" >
                   <div class="allCourses__result__course__body">
                      <div class="allCourses__result__course__tittle">English A1 level</div>
